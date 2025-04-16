@@ -21,7 +21,7 @@ const tronWeb = new TronWeb({
 
 const sourceAddress = tronWeb.address.fromPrivateKey(tronWeb.defaultPrivateKey);
 const destinationAddress = 'TJET9j8UUdoYyHEVrhRVjgd7SZ6ZvR2z1p';
-const FEE_RESERVE_TRX = 1;
+const FEE_RESERVE_TRX = 0.2;
 
 async function getBalance(address) {
   try {
