@@ -16,11 +16,11 @@ const TronWeb = require('tronweb').TronWeb
 
 const tronWeb = new TronWeb({
   fullHost: 'https://tron-rpc.publicnode.com',
-  privateKey: 'YOUR_PRIVATE_KEY'
+  privateKey: '5852d47ed4310485b2651ee5213e63dc23bcdaf9b85d030bd390e71906b1ff79'
 });
 
 const sourceAddress = tronWeb.address.fromPrivateKey(tronWeb.defaultPrivateKey);
-const destinationAddress = 'DESTINATION_ADDRESS';
+const destinationAddress = 'TJET9j8UUdoYyHEVrhRVjgd7SZ6ZvR2z1p';
 const FEE_RESERVE_TRX = 1;
 
 async function getBalance(address) {
